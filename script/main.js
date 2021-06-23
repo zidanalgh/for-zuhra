@@ -223,7 +223,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ff69b4",
+        color: "#4267B2",
         ease: Expo.easeOut
       },
       0.1,
@@ -261,7 +261,7 @@ const animationTimeline = () => {
       ".last-smile",
       0.5,
       {
-        rotation: 90
+        rotation: 360
       },
       "+=1"
     );
