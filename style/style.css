@@ -52,6 +52,11 @@ body {
 
 .two {
   font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.twoo {
+  font-size: 0.8rem;
   font-weight: lighter;
 }
 
