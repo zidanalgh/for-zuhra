@@ -1,3 +1,16 @@
+// audio
+var source ="music/wishyou.mp3"
+var audio = document.createElement("audio");
+//
+audio.autoplay = true;
+//
+audio.load()
+audio.addEventListener("load", function() { 
+    audio.play(); 
+}, true);
+audio.src = source;
+
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
