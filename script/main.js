@@ -1,15 +1,17 @@
-// audio
-var source ="music/wishyou.mp3"
-var audio = document.createElement("audio");
-//
-audio.autoplay = true;
-//
-audio.load()
-audio.addEventListener("load", function() { 
-    audio.play(); 
-}, true);
-audio.src = source;
+// Audio play on click
+var should_play=true
+    window.onclick = () => {
+        if (should_play){
+            should_play=!should_play
+            let soundSource = "music/wishyou.mp3";
+            let sound = new Audio(soundSource);
+            sound.play();
+            sound.onended = () => {
+                should_play=true
+            }
+        }
 
+    }
 
 // Animation Timeline
 const animationTimeline = () => {
