@@ -1,3 +1,3 @@
-# for-chika hbd soon
-iseng-iseng
+# for-Zuhra hbd
+
 thx to https://github.com/faahim
